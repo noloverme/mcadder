@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,35,42&height=240&section=header&text=MC%20Adder%20%26%20Scanner&fontSize=52&fontColor=ffffff&animation=fadeIn&desc=Высокоскоростной%20SLP-сканер%20и%20инжектор%20серверов%20в%20Minecraft%20servers.dat&descSize=19&descAlignY=72" width="100%" alt="MC Adder Header"/>
+<img src="assets/header.svg" width="100%" alt="MC Adder Header"/>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.8+"/>
@@ -215,6 +215,7 @@ M5|m5.joinserver.ru
 
 ```text
 mcadder/
+├── assets/              # Векторная графика и баннеры (header, footer)
 ├── main.py              # Точка входа, CLI-интерфейс и NBT-модификатор
 ├── scanner.py           # Высокоскоростной асинхронный SLP & Login сканер
 ├── localips.txt         # База из 181 валидного узла joinserver.ru
@@ -228,7 +229,7 @@ mcadder/
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,35,42&height=100&section=footer" width="100%" alt="Footer"/>
+<img src="assets/footer.svg" width="100%" alt="MC Adder Footer"/>
 
 <sub>Разработано с ❤️ для Minecraft сообщества • MIT License</sub>
 
